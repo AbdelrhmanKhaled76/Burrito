@@ -1,0 +1,29 @@
+#home-first-section {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+            url('../pics/home_background.jpeg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.swiper-pagination-bullet {
+    background: #333; 
+    width: 10px;
+    height: 10px;
+    opacity: 0.7;
+    
+}
+
+.swiper-pagination-bullet-active {
+    background: #FF0037; 
+    opacity: 1;
+}
+
+.swiper-pagination {
+    position: relative;
+    bottom: -20px; /* Adjust this to move pagination further outside */
+    left: 50%;
+    transform: translateY(50%);
+    z-index: 3 !important;
+}
