@@ -1,6 +1,11 @@
-BURRITO WEBSITE
+Burrito Website
 
-this website is made with next js in addition to typescript with react , this website was the second try for me to design with figma !, the style for this web site is made with tailwind.css !!
-i also made a restful api for the feedback page form , in addition to using formik for the form , i used the YUP libirary for validating schemas for the form
-i used the next routes to validate the api data for my mongodb , the logos + the pallete used in the website is made by my friend , i used the AOS libirary for the animation used in the website
-i used the swiper libirary to make a slider for the home page and the about page , finally the website is responsive using the tailwind features , feel free to see the page yourself !
+This website is built using Next.js with TypeScript and React. It represents my second attempt at designing with Figma. The website's styling is implemented with Tailwind CSS, ensuring a modern and responsive design.
+
+For the feedback page form, I developed a RESTful API and utilized Formik for form handling. The Yup library was employed to validate form schemas effectively. The API data is validated using Next.js routes, with data stored and managed in MongoDB.
+
+The logos and color palette used in the website were designed by a friend, contributing to the unique visual identity of the project. Animations throughout the site were implemented using the AOS library, enhancing the user experience.
+
+Additionally, I integrated the Swiper library to create sliders on both the homepage and the about page. The website is fully responsive, leveraging the powerful features of Tailwind CSS.
+
+Feel free to explore the site and experience it yourself!
