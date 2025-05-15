@@ -1,21 +1,22 @@
 "use client";
+import AOS from "aos";
 import { Amatic_SC, Ranchers } from "next/font/google";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
+import Nav from "./_components/Nav";
+import Footer from "./_components/Footer";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { Toaster } from "react-hot-toast";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "./globals.css";
+import { Metadata } from "next";
 
 config.autoAddCss = false;
 
-const metadata = {
-  title: "Burrito",
+const metadata: Metadata = {
+  title: "Your Site Title",
   description: "this is our mexican restaurant website",
   icons: {
     icon: "/icon.png",
