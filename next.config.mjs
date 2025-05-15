@@ -7,9 +7,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true, // Skip TypeScript errors if blocking deployment
   },
-  experimental: {
-    serverActions: true, // Required if using Next.js 15+ server actions
-  },
 };
 
 export default nextConfig;
